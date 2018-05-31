@@ -1,0 +1,2 @@
+C:\Users\WeCanCodeIT\source\repos\FizzBuzz\FuzzBuzz.Tests\obj\Debug\FuzzBuzz.Tests.csprojAssemblyReference.cache
+C:\Users\WeCanCodeIT\source\repos\FizzBuzz\FuzzBuzz.Tests\obj\Debug\FuzzBuzz.Tests.csproj.CoreCompileInputs.cache
