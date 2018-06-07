@@ -81,15 +81,15 @@ namespace FizzBuzz.Tests
             Assert.That(result, Is.EqualTo("Buzz"));
         }
 
-        [Test]
-        public void Get_Returns_Fizz_Buzz_for_Mul_3_and_5()
-        {
-            var fizzBuzzer = new FizzBuzzer();
+        //[Test]
+        //public void Get_Returns_Fizz_Buzz_for_Mul_3_and_5()
+        //{
+        //    var fizzBuzzer = new FizzBuzzer();
 
-            var result = fizzBuzzer.Get(30);
+        //    var result = fizzBuzzer.Get(15);
 
-            Assert.That(result, Is.EqualTo("FizzBuzz"));
-        }
+        //    Assert.That(result, Is.EqualTo("FizzBuzz"));
+        //}
 
         [Test]
         public void Get_Returns_Buzz_for_7()
@@ -102,18 +102,55 @@ namespace FizzBuzz.Tests
         }
 
 
+        //[Test]
+        //public void Get_Returns_15_for_15()
+        //{
+        //    var fizzBuzzer = new FizzBuzzer();
+
+        //    var result = fizzBuzzer.Get(15);
+
+        //    Assert.That(result, Is.EqualTo("15"));
+        //}
+
+        //[Test]
+        //public void Get_Returns_30_for_30()
+        //{
+        //    var fizzBuzzer = new FizzBuzzer();
+
+        //    var result = fizzBuzzer.Get(30);
+
+        //    Assert.That(result, Is.EqualTo("30"));
+        //}
+
         [Test]
-        public void Get_Returns_15_for_15()
+        public void Get_Returns_FizzBuzz_for_15()
         {
             var fizzBuzzer = new FizzBuzzer();
 
             var result = fizzBuzzer.Get(15);
 
-            Assert.That(result, Is.EqualTo("15"));
+            Assert.That(result, Is.EqualTo("FizzBuzz"));
         }
 
+        [Test]
+        public void Get_Returns_FizzBuzz_for_30()
+        {
+            var fizzBuzzer = new FizzBuzzer();
 
+            var result = fizzBuzzer.Get(30);
 
+            Assert.That(result, Is.EqualTo("FizzBuzz"));
+        }
+
+        [Test]
+        public void Get_Returns_61_for_61()
+        {
+            var fizzBuzzer = new FizzBuzzer();
+
+            var result = fizzBuzzer.Get(61);
+
+            Assert.That(result, Is.EqualTo("61"));
+        }
     }
 
 
